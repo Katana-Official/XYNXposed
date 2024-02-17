@@ -1128,7 +1128,10 @@ public class XResources extends XResourcesSuperClass {
 		return false;
 	}
 
-	private static native void rewriteXmlReferencesNative(long parserPtr, XResources origRes, Resources repRes);
+	private static void rewriteXmlReferencesNative(long parserPtr, XResources origRes, Resources repRes)
+	{
+		XposedBridge.log("Doesn't support for now.");
+	}
 
 	/**
 	 * Used to replace reference IDs in XMLs.

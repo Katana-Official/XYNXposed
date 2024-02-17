@@ -27,6 +27,5 @@ Harmony OS 2-4
 [Android Studio Debugger](https://developer.android.google.cn/studio/intro/)  
 [Xposed](https://github.com/rovo89/Xposed)  
 [Meta](https://github.com/Katana-Official/Meta)  
-[LSPlant](https://github.com/LSPosed/LSPlant)
 #### TODO
 XResource support

@@ -52,7 +52,7 @@ public final class XposedBridge {
 
 	/** @deprecated Use {@link #getXposedVersion()} instead. */
 	@Deprecated
-	public static int XPOSED_BRIDGE_VERSION;
+	public static int XPOSED_BRIDGE_VERSION = 92;
 
 	/*package*/ static boolean isZygote = true;
 	private static final int RUNTIME_DALVIK = 1;

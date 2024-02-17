@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XposedBridge
+import top.bienvenido.xynxposedframework.tests.SimpleTestCases
 import top.bienvenido.xynxposedframework.ui.theme.XYNXposedFrameworkTheme
 
 class MainActivity : ComponentActivity() {
@@ -56,6 +57,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        SimpleTestCases.test()
     }
 }
 
