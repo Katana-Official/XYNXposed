@@ -5,6 +5,8 @@ Since Android 15, Google stripped all symbols from libart.so and caused billions
 Using this framework will not affect the behaviour above Andorid 15 and will only make methods interpret without compiled.  
 With the ART TI (ART Tooling Interface), you can debug your app and even integrate it inside [Mundo](https://github.com/Katana-Official/SPatch-Update/releases).  
 We're using part of the AOSP feature, which was already included inside the AOSP CTS tests, and won't be removed in the future Android versions, this will be much stable than libart symbol based method. You can read the introduction [here](https://source.android.google.cn/docs/core/runtime/art-ti#validation).
+#### Xposed API compatibility
+Xposed API 92
 #### XYN Xposed Website
 [https://www.die.lu](https://www.die.lu)
 #### XYN Xposed Group
