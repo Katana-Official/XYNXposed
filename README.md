@@ -28,3 +28,5 @@ Harmony OS 2-4
 [Xposed](https://github.com/rovo89/Xposed)  
 [Meta](https://github.com/Katana-Official/Meta)  
 [LSPlant](https://github.com/LSPosed/LSPlant)
+#### TODO
+XResource support

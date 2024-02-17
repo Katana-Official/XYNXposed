@@ -189,13 +189,15 @@ public final class XposedBridge {
 	 * @see #hookAllConstructors
 	 */
 	public static XC_MethodHook.Unhook hookMethod(Member hookMethod, XC_MethodHook callback) {
-		if (!(hookMethod instanceof Method) && !(hookMethod instanceof Constructor<?>)) {
+//		if (!(hookMethod instanceof Method) && !(hookMethod instanceof Constructor<?>)) {
+//			throw new IllegalArgumentException("Only methods and constructors can be hooked: " + hookMethod.toString());
+//		} else if (hookMethod.getDeclaringClass().isInterface()) {
+//			throw new IllegalArgumentException("Cannot hook interfaces: " + hookMethod.toString());
+//		} else if (Modifier.isAbstract(hookMethod.getModifiers())) {
+//			throw new IllegalArgumentException("Cannot hook abstract methods: " + hookMethod.toString());
+//		}
+		if(!(hookMethod instanceof Executable))
 			throw new IllegalArgumentException("Only methods and constructors can be hooked: " + hookMethod.toString());
-		} else if (hookMethod.getDeclaringClass().isInterface()) {
-			throw new IllegalArgumentException("Cannot hook interfaces: " + hookMethod.toString());
-		} else if (Modifier.isAbstract(hookMethod.getModifiers())) {
-			throw new IllegalArgumentException("Cannot hook abstract methods: " + hookMethod.toString());
-		}
 
 		boolean newMethod = false;
 		CopyOnWriteSortedSet<XC_MethodHook> callbacks;
