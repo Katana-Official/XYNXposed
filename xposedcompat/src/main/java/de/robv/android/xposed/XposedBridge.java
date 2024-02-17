@@ -388,7 +388,7 @@ public final class XposedBridge {
 		);
 	}
 
-	private static Object invokeOriginalMethodNative(Member method, int methodId, Object thisObject, Object[] args)
+	private synchronized static Object invokeOriginalMethodNative(Member method, int methodId, Object thisObject, Object[] args)
 	{
 		CopyOnWriteSortedSet<XC_MethodHook> callbacks = sHookedMethodCallbacks.get(method);
 		Object res = null;

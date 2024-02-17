@@ -18,10 +18,10 @@ You can check the dex instructions [here](https://cs.android.com/android/platfor
 #### Xposed Loader Demo
 The Mundo SDK based sandbox / SULoader app is now available on [GitHub Meta Wolf Project](https://github.com/Katana-Official/Meta/releases), you can download the app and install the Xposed modules inside this app, you can find out the user manual by clicking the configuration tab.
 #### Reference
-[Jtik](https://github.com/chancerly/jtik)
-[ART TI](https://source.android.google.cn/docs/core/runtime/art-ti)
-[Mundo (Work above Android 15)](https://github.com/Katana-Official/SPatch-Update)
-[Android Studio Debugger](https://developer.android.google.cn/studio/intro/)
-[Xposed](https://github.com/rovo89/Xposed)
-[Meta](https://github.com/Katana-Official/Meta)
+[Jtik](https://github.com/chancerly/jtik)  
+[ART TI](https://source.android.google.cn/docs/core/runtime/art-ti)  
+[Mundo (Work above Android 15)](https://github.com/Katana-Official/SPatch-Update)  
+[Android Studio Debugger](https://developer.android.google.cn/studio/intro/)  
+[Xposed](https://github.com/rovo89/Xposed)  
+[Meta](https://github.com/Katana-Official/Meta)  
 [LSPlant](https://github.com/LSPosed/LSPlant)
