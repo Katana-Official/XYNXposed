@@ -17,6 +17,8 @@ MIT License
 You can check the dex instructions [here](https://cs.android.com/android/platform/superproject/main/+/main:tools/dexter/slicer/)
 #### Xposed Loader Demo
 The Mundo SDK based sandbox / SULoader app is now available on [GitHub Meta Wolf Project](https://github.com/Katana-Official/Meta/releases), you can download the app and install the Xposed modules inside this app, you can find out the user manual by clicking the configuration tab.
+#### System compatibility
+Android 8-15 and the future Android versions.
 #### Reference
 [Jtik](https://github.com/chancerly/jtik)  
 [ART TI](https://source.android.google.cn/docs/core/runtime/art-ti)  
